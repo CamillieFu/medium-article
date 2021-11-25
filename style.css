@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Outfit|Roboto Mono");
+
+html {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+.banner h1 {
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+  font-family: 'Outfit', Helvetica;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(100, 100, 100);
+  word-spacing: 5px;
+  font-size: 2em;
+  font-family: 'Outfit', Helvetica;
+}
+
+.article.container {
+  margin-top: 40px;
+  margin: 100px 200px 70px 200px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Outfit', Helvetica;
+  text-align: justify;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/collection/3576904/1000x500);
+  background-size: cover;
+  height: 150px;
+  padding: 150px 0;
+}
